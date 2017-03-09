@@ -1,4 +1,4 @@
 # portfolio
 my fully function portfolio
 
-link==piush.pythonanywhere.com
+link==http://piush.pythonanywhere.com/
