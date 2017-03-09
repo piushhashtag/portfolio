@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body STYLE="background-color: #1a1a1a">
+{% for x in contact %}
+    <hr>
+  <div style="color: whitesmoke"> NAME:&nbsp;{{ x.name }}</div> <br><BR>
+    <div style="color: whitesmoke">EMAIL:&nbsp;{{ x.email }}</div><br><BR>
+    <div style="color: whitesmoke">MESSAGE:&nbsp;{{ x.message }}</div><br><BR>
+    <HR>
+{% endfor %}
+</body>
